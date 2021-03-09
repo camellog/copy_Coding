@@ -1,0 +1,118 @@
+ul,li,p,h3,h2,article,section,small,img,a,div{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+}
+html{
+  font-size: 62.5%;
+}
+body{
+  font-size: 1.6em;
+  font-family: serif;
+}
+.container{
+  width: 95%;
+  margin: 0 auto;
+}
+img{
+  width: 450px;
+  height: 250px;
+}
+
+header{
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  height: 100px;
+  margin-top: 0;
+  padding: 0;
+}
+  .pageLog{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #000;
+    width: 95%;
+    margin: 0 auto;
+    height: 70px;
+    line-height: 70px;
+  }
+  .pageLog a{
+    color: #000;
+  }
+  .nav{
+    background-color: #333333;
+    height: 40px;
+    line-height: 40px;
+  }
+  ul{
+    display: flex;
+    justify-content:space-between;
+  }
+  li{
+    color: #fff;
+  }
+
+
+main{
+  text-align: center;
+  padding-top: 100px;
+}
+.main{
+  margin-top: 40px;
+}
+.maintext{
+  text-align: left;
+  font-weight: bold;
+  margin-top: 15px;
+}
+.mainlink{
+  margin-top: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+footer{
+  background-color: yellow;
+}
+
+@media screen and (min-width:767px){
+  .container{
+    max-width: 1170px;
+  }
+  ul{
+    justify-content: start;
+  }
+  li:first-child{
+    padding-left: 0;
+  }
+  li{
+    padding-left: 50px;
+  }
+
+  /*  mainarea1の詳細設定(PC)  */
+  main{
+    padding-top: 110px;
+  }
+  .main-flex-area{
+    display: flex;
+    justify-content: space-between;
+  }
+  .main{
+    max-width: 370px;
+    padding: 0 10px;
+  }
+  .imgarea img{
+    max-width: 100%;
+    height: auto;
+  }
+
+}
