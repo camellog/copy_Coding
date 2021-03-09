@@ -4,11 +4,13 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/index.css">
   <title>Document</title>
 </head>
 <body>
   <header>
-    <p><img src="" alt=""></p>
+    <p class="pageLog"><a href="">Travel Blog</a></p>
     <div class="nav">
       <div class="container">
         <ul>
@@ -25,23 +27,25 @@
   <main>
     <section class="mainarea1">
       <div class="container">
-        <article class="main first">
-          <p><img src="image/pickup1.jpg" alt=""></p>
-          <p>タイトルテキストテキストテキストテキストテキストテキストテキスト</p>
-          <p><a href="">READ MORE</a></p>
-        </article> <!-- main first -->
+        <div class="main-flex-area">
+          <article class="main first">
+            <p class="imgarea"><img src="image/pickup1.jpg" alt=""></p>
+            <p class="maintext">タイトルテキストテキストテキストテキストテキストテキストテキスト</p>
+            <p class="mainlink"><a href="">READ MORE</a></p>
+          </article> <!-- main first -->
 
-        <article class="main second">
-          <p><img src="image/pickup2.jpg" alt=""></p>
-          <p>タイトルテキストテキストテキストテキストテキストテキストテキスト</p>
-          <p><a href="">READ MORE</a></p>
-        </article> <!-- main second -->
+          <article class="main second">
+            <p class="imgarea"><img src="image/pickup2.jpg" alt=""></p>
+            <p class="maintext">タイトルテキストテキストテキストテキストテキストテキストテキスト</p>
+            <p class="mainlink"><a href="">READ MORE</a></p>
+          </article> <!-- main second -->
 
-        <article class="main third">
-          <p><img src="image/pickup3.jpg" alt=""></p>
-          <p>タイトルテキストテキストテキストテキストテキストテキストテキスト</p>
-          <p><a href="">READ MORE</a></p>
-        </article> <!-- main third -->
+          <article class="main third">
+            <p class="imgarea"><img src="image/pickup3.jpg" alt=""></p>
+            <p class="maintext">タイトルテキストテキストテキストテキストテキストテキストテキスト</p>
+            <p class="mainlink"><a href="">READ MORE</a></p>
+          </article> <!-- main third -->
+        </div>
       </div> <!-- container -->
     </section> <!-- mainarea1 -->
 
@@ -51,7 +55,7 @@
           <div class="flex-left main2-first">
             <h2><a href="">タイトルテキストテキストテキストテキストテキスト</a></h2>
             <small>2020/01/01  カテゴリ1</small>
-            <p><img src="image/main1.jpg" alt=""></p>
+            <p class="imgarea"><img src="image/main1.jpg" alt=""></p>
             <p>本文テキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
             <a href="">READ MORE</a>
           </div> <!-- flex-left first -->
@@ -59,7 +63,7 @@
           <div class="flex-left main2-second">
             <h2><a href="">タイトルテキストテキストテキストテキストテキスト</a></h2>
             <small>2020/01/01  カテゴリ1</small>
-            <p><img src="image/main2.jpg" alt=""></p>
+            <p class="imgarea"><img src="image/main2.jpg" alt=""></p>
             <p>本文テキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
             <a href="">READ MORE</a>
           </div> <!-- flex-left first -->
@@ -67,7 +71,7 @@
           <div class="flex-left main2-third">
             <h2><a href="">タイトルテキストテキストテキストテキストテキスト</a></h2>
             <small>2020/01/01  カテゴリ1</small>
-            <p><img src="image/main3.jpg" alt=""></p>
+            <p class="imgarea"><img src="image/main3.jpg" alt=""></p>
             <p>本文テキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
             <a href="">READ MORE</a>
           </div> <!-- flex-left first -->
@@ -75,24 +79,24 @@
 
         <article class="flex-right-area">
           <div class="flex-right profile">
-            <p><img src="image/author.jpg" alt=""></p>
+            <p class="imgarea"><img src="image/author.jpg" alt=""></p>
             <h3>Name Name</h3>
             <p>本文テキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
           </div> <!-- flex-right main2-right -->
 
           <div class="flex-right-ranking">
             <div class="ranking-item">
-              <p><a href=""><img src="image/ranking1.jpg" alt=""></a></p>
+              <p class="imgarea"><a href=""><img src="image/ranking1.jpg" alt=""></a></p>
               <p><a href="">本文テキストテキストテキストテキストテキストテキストテキストテキスト </a></p>
             </div><!-- ranking-item -->
 
             <div class="ranking-item">
-              <p><a href=""><img src="image/ranking2.jpg" alt=""></a></p>
+              <p class="imgarea"><a href=""><img src="image/ranking2.jpg" alt=""></a></p>
               <p><a href="">本文テキストテキストテキストテキストテキストテキストテキストテキスト </a></p>
             </div><!-- ranking-item -->
 
             <div class="ranking-item">
-              <p><a href=""><img src="image/ranking3.jpg" alt=""></a></p>
+              <p class="imgarea"><a href=""><img src="image/ranking3.jpg" alt=""></a></p>
               <p><a href="">本文テキストテキストテキストテキストテキストテキストテキストテキスト </a></p>
             </div><!-- ranking-item -->
           </div> <!-- raflex-right-ranking -->
