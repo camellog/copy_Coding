@@ -208,25 +208,26 @@ footer{
 }
 
 .foot-third{
-  margin-top: 30px;
+  margin-top: 50px;
 }
 .foot-third h3{
   font-size: 2.0rem;
 }
 
-.foot-third .Twitterarea{
+.Twitterarea{
   margin-top: 30px;
   height: 300px;
   overflow: scroll;
   overflow-x: hidden;
-  border-radius: 10px;
+  border-radius: 10px 10px 0 0;
 }
 .Twitterlinks{
   display: flex;
   height: 50px;
   background-color: #fff;
   justify-content: space-between;
-  border-radius: 10px;
+  margin-top: 2px;
+  border-radius: 0 0 10px 10px;
   line-height: 50px;
   color: skyblue;
   padding: 0 30px;
@@ -324,8 +325,19 @@ footer{
 
   /* footerの詳細 */
   footer{
-    margin-top: 135px;
+    padding-top: 135px;
   }
-
+  .foot-flex{
+    display: flex;
+    justify-content: space-between;
+  }
+  .foot-flex section{
+    display: block;
+    width: 40%;
+    padding: 0 30px;
+  }
+  .Twitterarea{
+    height:250px;
+  }
 
 }
